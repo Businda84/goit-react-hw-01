@@ -6,9 +6,9 @@ import Profile from "../Profile/Profile"
 import FriendList from "../FriendList/FriendList"
 import TransactionHistory from "../TransactionHistory/TransactionHistory"
 
-import UserData from "../Data/UserData.json"
+import UserData from "../Data/userData.json"
 import friends from "../Data/friends.json"
-import transactions from "../Data/TransactionHistory.json"
+import transactions from "../Data/transactionHistory.json"
 
 
 function App() {

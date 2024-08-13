@@ -1,4 +1,4 @@
-import "./Profile.module.css"
+import css from "./profile.module.css"
 
 export default function profile({
   name,
@@ -7,28 +7,28 @@ export default function profile({
   image,
   stats: { followers, views, likes },
 }) {
-    return <div className="containerList" >
+    return <div className={css.containerList} >
   
   <div >
-    <img className="userPhoto"
+    <img className={css.userPhoto}
       src={image}
       alt={name}
     />
-    <p className="userName">{name}</p>
-            <p className="userData">{tag}@pmarica</p>
-            <p className="userData">{ location}</p>
+    <p className={css.userName}>{css.name}</p>
+        <p className={css.userData}>{tag}@pmarica</p>
+        <p className={css.userData}>{ location}</p>
   </div>
 
-  <ul className="container">
-    <li className="userItem">
+  <ul className={css.container}>
+        <li className={css.userItem}>
       <span>followers:</span>
       <span>{followers}</span>
     </li>
-    <li className="userItem">
+        <li className={css.userItem}>
       <span>views:</span>
       <span>{views}</span>
     </li>
-    <li className="userItem">
+    <li className={css.userItem}>
       <span>likes:</span>
       <span>{likes}</span>
     </li>

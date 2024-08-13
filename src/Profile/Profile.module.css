@@ -1,13 +1,12 @@
-
-
 .containerList{
-    border:solid 5px;
+    border:solid 5px black;
     border-radius: 20px;
     padding: 0px;
     padding-top: 10px;
     overflow: hidden;
     margin-right: auto;
      margin-left: auto;
+     background-color: rgb(175, 159, 159);
 }
 .userName{
     font-size: 50px;
@@ -16,14 +15,14 @@
 }
 .userData{
     font-size: 30px;
-    color:rgb(91, 74, 107)}
+    color:rgb(23, 18, 27)}
 
 .container{
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
     border-top: solid 5px ;
-    border-color: rgb(59, 86, 86);
+    border-color: rgb(86, 59, 59);
 display: flex;
 justify-content: center;
 
@@ -44,7 +43,7 @@ border-right: solid 5px ;
     width: 200px;
     border: solid 3px;
     border-radius: 300px;
-    background-color: rgb(27, 90, 69);
+    background-color: cadetblue;
 }
 span{
     color: aliceblue;
