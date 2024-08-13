@@ -1,0 +1,51 @@
+
+
+.containerList{
+    border:solid 5px;
+    border-radius: 20px;
+    padding: 0px;
+    padding-top: 10px;
+    overflow: hidden;
+    margin-right: auto;
+     margin-left: auto;
+}
+.userName{
+    font-size: 50px;
+ 
+    color: black;
+}
+.userData{
+    font-size: 30px;
+    color:rgb(91, 74, 107)}
+
+.container{
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: solid 5px ;
+    border-color: rgb(59, 86, 86);
+display: flex;
+justify-content: center;
+
+  
+}
+.userItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    
+}
+.userItem:not(:last-child){
+border-right: solid 5px ;
+}
+.userPhoto{
+ 
+    width: 200px;
+    border: solid 3px;
+    border-radius: 300px;
+    background-color: rgb(27, 90, 69);
+}
+span{
+    color: aliceblue;
+}
