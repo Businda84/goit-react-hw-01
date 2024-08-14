@@ -16,8 +16,8 @@ export default function FriendListItem({ avatar, name, isOnline }) {
        <p
     
              className={clsx(
-          css.friendStatus,
-         ( isOnline ? css.isOnline : css.isOffline)
+         
+          isOnline ? css.isOnline : css.isOffline
         )}
       >
    
