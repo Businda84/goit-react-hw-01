@@ -14,8 +14,8 @@ export default function profile({
       src={image}
       alt={name}
     />
-    <p className={css.userName}>{css.name}</p>
-        <p className={css.userData}>{tag}@pmarica</p>
+    <p className={css.userName}>{name}</p>
+        <p className={css.userData}>@{tag}</p>
         <p className={css.userData}>{ location}</p>
   </div>
 
